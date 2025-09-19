@@ -1,0 +1,14 @@
+{
+  "name": "cubedash",
+  "version": "1.0.0",
+  "description": "Um jogo web de labirinto estilo arcade",
+  "main": "index.html",
+  "scripts": {
+    "test": "python3 -m http.server 8080 & sleep 2 && echo 'Abra http://localhost:8080/test-runner.html para executar os testes'",
+    "start": "python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": ["game", "javascript", "canvas", "maze", "arcade"],
+  "author": "CubeDash Team",
+  "license": "MIT"
+}

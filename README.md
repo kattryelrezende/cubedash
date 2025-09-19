@@ -65,11 +65,11 @@ awsman/
 ```javascript
 class Game {
     // Componentes principais:
-    ├── constructor()          # Inicialização do jogo
-    ├── generateMaze()         # Geração procedural do labirinto
-    ├── updatePlayer()         # Controles e movimento do jogador
-    ├── updateEnemies()        # IA e movimento dos inimigos
-    ├── checkCollisions()      # Sistema de colisões
+    ├── constructor()           # Inicialização do jogo
+    ├── generateMaze()          # Geração procedural do labirinto
+    ├── updatePlayer()          # Controles e movimento do jogador
+    ├── updateEnemies()         # IA e movimento dos inimigos
+    ├── checkCollisions()       # Sistema de colisões
     ├── spawnItems()           # Geração de moedas e power-ups
     ├── render()               # Renderização gráfica
     └── gameLoop()             # Loop principal do jogo
