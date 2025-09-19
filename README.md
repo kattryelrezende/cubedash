@@ -31,10 +31,6 @@ Um jogo web de labirinto estilo arcade onde você controla um cubo coletando ite
 ![Gameplay](screenshots/gameplay.png)
 *Jogador (azul) coletando moedas (dourado) e evitando inimigos (vermelho)*
 
-### Power-up Ativo
-![Power-up](screenshots/powerup.png)
-*Jogador invencível (amarelo) com inimigos vulneráveis (azul)*
-
 ### Game Over
 ![Game Over](screenshots/game-over.png)
 *Tela de fim de jogo*
