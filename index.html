@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeDash</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #222;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        canvas {
+            border: 2px solid #fff;
+            background: #000;
+        }
+        .ui {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .controls {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CubeDash</h1>
+    <div class="ui">
+        <span>Score: <span id="score">0</span></span>
+        <span style="margin-left: 20px;">Level: <span id="level">1</span></span>
+        <span style="margin-left: 20px;">Lives: <span id="lives">3</span></span>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div class="controls">
+        <p>Use ARROW KEYS to move • Collect coins • Avoid red enemies • Get power-ups!</p>
+        <p>Press SPACE to start/restart</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
